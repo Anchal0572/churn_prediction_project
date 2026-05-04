@@ -1,0 +1,35 @@
+{
+  "best_model": "Random Forest (Tuned)",
+  "best_params": {
+    "max_depth": 10,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  },
+  "auc": 0.8507,
+  "accuracy": 0.837,
+  "f1_score": 0.6072,
+  "total_customers": 10000,
+  "churn_rate_pct": 20.37,
+  "revenue_at_risk_cr": 43.3,
+  "savings_10pct_cr": 4.33,
+  "savings_20pct_cr": 8.66,
+  "features": [
+    "credit_score",
+    "country",
+    "gender",
+    "age",
+    "tenure",
+    "balance",
+    "products_number",
+    "credit_card",
+    "active_member",
+    "estimated_salary",
+    "balance_salary_ratio",
+    "products_per_year",
+    "is_zero_balance",
+    "age_group",
+    "credit_score_band",
+    "wealth_score",
+    "active_credit_card"
+  ]
+}
